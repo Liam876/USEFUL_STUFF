@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan  9 18:33:56 2021
-
-@author: Admin
-"""
 
 from bubble_sort_algo import rand_list
 
