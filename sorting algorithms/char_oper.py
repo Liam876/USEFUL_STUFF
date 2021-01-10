@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan  9 16:21:36 2021
 
-@author: Admin
-"""
 
 def ch_instr (ch,st):
     count = 0
