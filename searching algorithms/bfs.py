@@ -35,7 +35,7 @@ if __name__ == "__main__":
     assert result == [(0, 0), (0, 1), (0, 2), (1, 2), (2, 2)]
 
     # Test 2
-    maze = read_maze(r"C:\Users\Admin\pracExc\Exercise Files\Ex_Files_Python_Data_Structures\Exercise Files\05_02_end\mazes/mini_maze_bfs.txt")
+    maze = read_maze("mazes/mini_maze_bfs.txt")
     # for row in maze:
     #     print(row)
     start_pos = (0, 0)
@@ -44,7 +44,7 @@ if __name__ == "__main__":
     assert result == [(0, 0), (1, 0), (1, 1), (1, 2), (2, 2)]
 
     # Test 3
-    maze = read_maze(r"C:\Users\Admin\pracExc\Exercise Files\Ex_Files_Python_Data_Structures\Exercise Files\05_02_end\mazes/mini_maze_bfs.txt")
+    maze = read_maze("mazes/mini_maze_bfs.txt")
     start_pos = (0, 0)
     goal_pos = (3, 3)
     result = bfs(maze, start_pos, goal_pos)
